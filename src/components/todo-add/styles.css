@@ -1,0 +1,37 @@
+.todo-add-wrapper {
+    margin: 12px 0;
+    border-bottom: 3px solid #E6EFF4;
+    padding-bottom: 12px;
+    display: flex;
+}
+
+.todo-add-input {
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    outline: none;
+    flex-grow: 3;
+}
+
+.todo-add-submit {
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    flex-grow: 1;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left: 3px solid #BFD5E2;
+    outline: none;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.todo-add-submit:hover {
+    background-color: #eee;
+}
+
+.todo-add-submit:active {
+    background-color: #ebebebc2;    
+}

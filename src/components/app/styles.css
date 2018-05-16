@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 40%;
+    min-width: 300px;    
+    background-color: #BFD5E2;
+    border: 5px solid #E6EFF4;
+    border-radius: 8px;
+    padding: 30px;
+    height: 50vh;
+}
+
+.header {
+    font-size: 28px;
+    margin-bottom: 12px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
